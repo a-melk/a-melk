@@ -1,3 +1,21 @@
+// VERIFICATION
+
+function propmptCode() {
+  let code = btoa(window.prompt('Geef Uw code in:').toLowerCase())
+  if (code === '') { alert('Gelieve een code in te geven.'); propmptCode() }
+  else if (code !== 'bGV2ZSBkZSBoZWlsaWdlIGtvZQ==') { alert('Gelieve de code te gebruiken die U terugvindt in Uw uitgave van A-melk.'); propmptCode() }
+  else { document.getElementById('interface-container').style.display = ''; localStorage.setItem('access', '1'); prompt = function() {} }
+}
+
+if (btoa(location.hash) === 'I2M4aWU3Ymlx') {
+  localStorage.setItem('access', '1')
+  history.pushState('', document.title, window.location.pathname + window.location.search);
+} else if (localStorage.getItem('access') !== '1') {
+  document.getElementById('interface-container').style.display = 'none'
+  propmptCode()
+}
+
+
 const question = document.getElementById('question')
 const options = document.getElementsByClassName('option')
 
