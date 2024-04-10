@@ -8,7 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!--<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">-->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -24,56 +25,61 @@
   </div>
 
   <div class="result-container" style="display:none;">
-        <div class="person">
-            <div class="person-picture">
-                <img id="person-photo" src="images/brabant.jpg">
-            </div>
-            <div class="person-text">
-                <div class="result-title">U bent: <br><span class="small-span"></span><br><span class="big-span"></span> <br></div>
-                <div class="person-description"></div>
-            </div>
+    <div class="person">
+      <div class="person-picture">
+        <img id="person-photo" src="images/brabant.jpg">
+      </div>
+      <div class="person-text">
+        <div class="result-title">U bent: <br><span class="small-span"></span><br><span class="big-span"></span> <br>
         </div>
-        <div class="stats">
-            <div class="result-title your-stats">Uw statistieken:</div>
-            <div class="stat-name">IQ</div>
-            <div class="score-bar">
-                <div id="stat-0" style="width: 0%" class="fill-score-bar">
-                    <div class="fill-animation"></div>
-                </div>
-            </div>
-            <div class="stat-name">Buitenvliegkans</div>
-            <div class="score-bar">
-                <div id="stat-1" style="width: 0%" class="fill-score-bar">
-                    <div class="fill-animation"></div>
-                </div>
-            </div>
-            <div class="stat-name">Aaibaarheidsfactor</div>
-            <div class="score-bar">
-                <div id="stat-2" style="width: 0%" class="fill-score-bar">
-                    <div class="fill-animation"></div>
-                </div>
-            </div>
-            <div class="stat-name">Buiskans</div>
-            <div class="score-bar">
-                <div id="stat-3" style="width: 0%" class="fill-score-bar">
-                    <div class="fill-animation"></div>
-                </div>
-            </div>
-            <div class="stat-name">Gezag</div>
-            <div class="score-bar">
-                <div id="stat-4" style="width: 0%" class="fill-score-bar">
-                    <div class="fill-animation"></div>
-                </div>
-            </div>
-            <div class="stat-name">Slaapverwekkendheid</div>
-            <div class="score-bar">
-                <div id="stat-5" style="width: 0%" class="fill-score-bar">
-                    <div class="fill-animation"></div>
-                </div>
-            </div>
-        </div>
-        <button onclick="location.href=''">Opnieuw</button>
+        <div class="person-description"></div>
+      </div>
     </div>
+    <div class="stats">
+      <div class="result-title your-stats">Uw statistieken:</div>
+      <div class="stat-name">IQ</div>
+      <div class="score-bar">
+        <div id="stat-0" style="width: 0%" class="fill-score-bar">
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="stat-name">Buitenvliegkans</div>
+      <div class="score-bar">
+        <div id="stat-1" style="width: 0%" class="fill-score-bar">
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="stat-name">Aaibaarheidsfactor</div>
+      <div class="score-bar">
+        <div id="stat-2" style="width: 0%" class="fill-score-bar">
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="stat-name">Buiskans</div>
+      <div class="score-bar">
+        <div id="stat-3" style="width: 0%" class="fill-score-bar">
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="stat-name">Gezag</div>
+      <div class="score-bar">
+        <div id="stat-4" style="width: 0%" class="fill-score-bar">
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="stat-name">Slaapverwekkendheid</div>
+      <div class="score-bar">
+        <div id="stat-5" style="width: 0%" class="fill-score-bar">
+          <div class="fill"></div>
+        </div>
+      </div>
+    </div>
+    <button onclick="location.href=''">
+      <img class="cow" src="images/cow.png">
+      <div id="again">opnieuw</div>
+      <img class="cow" src="images/cow.png">
+    </button>
+  </div>
 </body>
 
 </html>
