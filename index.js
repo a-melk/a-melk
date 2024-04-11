@@ -122,3 +122,18 @@ function weightTest() {
 }
 
 loadQuestion(0);
+
+const fillElements = document.querySelectorAll('.fill');
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('fill-animation');
+            } else {
+                entry.target.classList.remove('fill-animation');
+            }
+        });
+    });
+
+    fillElements.forEach(fillElement => {
+        observer.observe(fillElement);
+    });
