@@ -49,7 +49,7 @@ var questions = [
   "Tenzij U iets praktisch moet bespreken, zegt U niets. Zowel U als de leerling hebben geen nood aan small talk.",
   ],[
   "U krijgt alle macht op het college. Wat is Uw eerste verrichting?",
-  "Uw voert een nieuwe richting in: voortaan kan men Uw vak ook voor vijftien uur per week krijgen. Alle andere richtingen schaft U af. De leerlingen die deze nieuwe richting niet aankunnen, worden verbannen naar Sint-Bavo. Al schaterlachend geeft U les voor een lege klas.",
+  "U voert een nieuwe richting in: voortaan kan men Uw vak ook voor vijftien uur per week krijgen. Alle andere richtingen schaft U af. De leerlingen die deze nieuwe richting niet aankunnen, worden verbannen naar Sint-Bavo. Al schaterlachend geeft U les voor een lege klas.",
   "In de automaat op de speelplaats zorgt U voor een nieuwe keuze: limoncello.",
   "U voert opnieuw lijfstraffen in. Leerkrachten die weigeren hun leerlingen te slaan geeft U er zelf van langs met een stok.",
   "U trekt ten strijde tegen de patriarchale cultuur en het superioriteitsgevoel op het college  en voert het sociaal project in voor elk schooljaar, niet alleen in het vijfde.",
